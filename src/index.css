@@ -63,6 +63,13 @@
 }
 
 body {
+  background-color: #f6c89f;
+}
+
+.counter {
+  background-color: #7b4a2f;
+
+body {
   margin: 0;
 }
 

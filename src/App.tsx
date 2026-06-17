@@ -10,7 +10,7 @@ function App() {
         <div>
           <h1>Comece agora.</h1>
           <p>
-            Edite<code>src/App.tsx</code>e salve para testar<code>HMR</code>
+            Edite <code>src/App.tsx</code> e salve para testar <code>HMR</code>
           </p>
         </div>
 
@@ -19,7 +19,7 @@ function App() {
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
-          Contagem de clicks {count}
+          Contagem de clicks: {count}
         </button>
       </section>
 
