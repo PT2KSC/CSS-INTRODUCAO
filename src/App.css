@@ -181,4 +181,9 @@
     right: 0;
     border-right-color: var(--border);
   }
+
+  body {
+    background-color: #f6c89f;
+  }
+
 }

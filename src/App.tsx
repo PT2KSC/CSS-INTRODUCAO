@@ -1,7 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
@@ -10,19 +7,19 @@ function App() {
   return (
     <>
       <section id="center">
-        
         <div>
-          <h1>Get started</h1>
+          <h1>Comece agora.</h1>
           <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+            Edite<code>src/App.tsx</code>e salve para testar<code>HMR</code>
           </p>
         </div>
+
         <button
           type="button"
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          Contagem de clicks {count}
         </button>
       </section>
 
